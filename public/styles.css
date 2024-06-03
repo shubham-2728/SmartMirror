@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* Blank background for the mirror */
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrolling */
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+#left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.widget {
+    margin: 20px;
+    padding: 20px;
+    /* More styles as needed */
+}
+
+#clock {
+    font-size: 1.5em;
+}
+
+#weather {
+    font-size: 1.5em;
+}
+
+#news {
+    font-size: 1.5em;
+}
+
+#currency {
+    font-size: 1.5em;
+}
+
+#departures {
+    font-size: 1.3em;
+}
+
+.icon {
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Optional: add some space between the icon and text */
+}
+
+.newsicon{
+    width: 100 px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Optional: add some space between the icon and text */
+}
+
+.currencyicon{
+    width: 100 px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Optional: add some space between the icon and text */
+}
+
+.weathericon{
+    width: 100 px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Optional: add some space between the icon and text */
+}
+
+.clockicon{
+    width: 100 px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Optional: add some space between the icon and text */
+}
